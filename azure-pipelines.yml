@@ -25,5 +25,6 @@ steps:
     serviceConnectionEndpoint: 'SnykConDemo'
     testType: 'app'
     monitorWhen: 'always'
+    severityThreshold: 'high'
     failOnIssues: true
     additionalArguments: '--all-projects'
