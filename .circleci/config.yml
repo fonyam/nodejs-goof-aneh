@@ -9,5 +9,6 @@ jobs:
       - checkout
       - run: npm install
       - run: npm ci
-      - snyk/scan
+      - snyk/scan:
+          token_variable: API_TOKEN
 workflows: null
