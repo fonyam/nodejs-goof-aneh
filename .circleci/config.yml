@@ -11,4 +11,5 @@ jobs:
       - run: npm ci
       - snyk/scan:
           token-variable: API_TOKEN
+          fail-on-issues: false
 workflows: null
